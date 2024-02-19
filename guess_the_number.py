@@ -21,3 +21,10 @@ while True:
         break
     else:
         print("Something went wrong! Try again...")
+        
+if 0<count<=5:
+    print("Excellent!")
+elif 5<count<=10:
+    print("You can do it better")
+else:
+    print("Try again it's too bad!")
